@@ -12,13 +12,13 @@
 		9600BDD72836E1A300A71A3E /* GreycliffCF-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */; };
 		9600BDDA2836E4CE00A71A3E /* nasalization-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */; };
 		962E84D428340EC4009D09AF /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E84D328340EC4009D09AF /* DemoViewModel.swift */; };
+		9630A7A1283C145D000BCFD7 /* NextilesSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9630A7A0283C145D000BCFD7 /* NextilesSDK */; };
 		96898F062833F49800D55C1F /* nextiles_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96898F052833F49800D55C1F /* nextiles_demoApp.swift */; };
 		96898F0A2833F49900D55C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96898F092833F49900D55C1F /* Assets.xcassets */; };
 		96898F0D2833F49900D55C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96898F0C2833F49900D55C1F /* Preview Assets.xcassets */; };
 		96898F172833F57F00D55C1F /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96898F162833F57F00D55C1F /* DemoView.swift */; };
 		96898F192833F6D500D55C1F /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96898F182833F6D500D55C1F /* Styling.swift */; };
 		96898F1D2833FB4900D55C1F /* CompilerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96898F1C2833FB4900D55C1F /* CompilerView.swift */; };
-		96BABADB2834476500F2E4D5 /* NextilesSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 96BABADA2834476500F2E4D5 /* NextilesSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-Regular.ttf"; sourceTree = "<group>"; };
 		9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nasalization-rg.ttf"; sourceTree = "<group>"; };
 		962E84D328340EC4009D09AF /* DemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
-		96898F022833F49800D55C1F /* nextiles-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nextiles-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96898F022833F49800D55C1F /* mobile-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96898F052833F49800D55C1F /* nextiles_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextiles_demoApp.swift; sourceTree = "<group>"; };
 		96898F092833F49900D55C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96898F0C2833F49900D55C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BABADB2834476500F2E4D5 /* NextilesSDK in Frameworks */,
+				9630A7A1283C145D000BCFD7 /* NextilesSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +51,7 @@
 		96898EF92833F49800D55C1F = {
 			isa = PBXGroup;
 			children = (
-				96898F042833F49800D55C1F /* nextiles-demo */,
+				96898F042833F49800D55C1F /* mobile-ios-demo */,
 				96898F032833F49800D55C1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		96898F032833F49800D55C1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96898F022833F49800D55C1F /* nextiles-demo.app */,
+				96898F022833F49800D55C1F /* mobile-ios-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96898F042833F49800D55C1F /* nextiles-demo */ = {
+		96898F042833F49800D55C1F /* mobile-ios-demo */ = {
 			isa = PBXGroup;
 			children = (
 				96898F052833F49800D55C1F /* nextiles_demoApp.swift */,
@@ -78,7 +78,7 @@
 				9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */,
 				96898F0B2833F49900D55C1F /* Preview Content */,
 			);
-			path = "nextiles-demo";
+			name = "mobile-ios-demo";
 			sourceTree = "<group>";
 		};
 		96898F0B2833F49900D55C1F /* Preview Content */ = {
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96898F012833F49800D55C1F /* nextiles-demo */ = {
+		96898F012833F49800D55C1F /* mobile-ios-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96898F102833F49900D55C1F /* Build configuration list for PBXNativeTarget "nextiles-demo" */;
+			buildConfigurationList = 96898F102833F49900D55C1F /* Build configuration list for PBXNativeTarget "mobile-ios-demo" */;
 			buildPhases = (
 				96898EFE2833F49800D55C1F /* Sources */,
 				96898EFF2833F49800D55C1F /* Frameworks */,
@@ -129,12 +129,12 @@
 			);
 			dependencies = (
 			);
-			name = "nextiles-demo";
+			name = "mobile-ios-demo";
 			packageProductDependencies = (
-				96BABADA2834476500F2E4D5 /* NextilesSDK */,
+				9630A7A0283C145D000BCFD7 /* NextilesSDK */,
 			);
 			productName = "nextiles-demo";
-			productReference = 96898F022833F49800D55C1F /* nextiles-demo.app */;
+			productReference = 96898F022833F49800D55C1F /* mobile-ios-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 96898EFD2833F49800D55C1F /* Build configuration list for PBXProject "nextiles-demo" */;
+			buildConfigurationList = 96898EFD2833F49800D55C1F /* Build configuration list for PBXProject "mobile-ios-demo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -162,13 +162,13 @@
 			);
 			mainGroup = 96898EF92833F49800D55C1F;
 			packageReferences = (
-				96BABAD92834476500F2E4D5 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */,
+				9630A79F283C145D000BCFD7 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */,
 			);
 			productRefGroup = 96898F032833F49800D55C1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96898F012833F49800D55C1F /* nextiles-demo */,
+				96898F012833F49800D55C1F /* mobile-ios-demo */,
 			);
 		};
 /* End PBXProject section */
@@ -328,11 +328,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"nextiles-demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 9ZLG5436N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "nextiles-demo/Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -360,11 +360,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"nextiles-demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 9ZLG5436N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "nextiles-demo/Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -388,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96898EFD2833F49800D55C1F /* Build configuration list for PBXProject "nextiles-demo" */ = {
+		96898EFD2833F49800D55C1F /* Build configuration list for PBXProject "mobile-ios-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96898F0E2833F49900D55C1F /* Debug */,
@@ -397,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96898F102833F49900D55C1F /* Build configuration list for PBXNativeTarget "nextiles-demo" */ = {
+		96898F102833F49900D55C1F /* Build configuration list for PBXNativeTarget "mobile-ios-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96898F112833F49900D55C1F /* Debug */,
@@ -409,7 +409,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		96BABAD92834476500F2E4D5 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */ = {
+		9630A79F283C145D000BCFD7 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Nextiles/mobile-ios-sdk/";
 			requirement = {
@@ -420,9 +420,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		96BABADA2834476500F2E4D5 /* NextilesSDK */ = {
+		9630A7A0283C145D000BCFD7 /* NextilesSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 96BABAD92834476500F2E4D5 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */;
+			package = 9630A79F283C145D000BCFD7 /* XCRemoteSwiftPackageReference "mobile-ios-sdk" */;
 			productName = NextilesSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
