@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NextilesSDK
 
 struct DemoView: View {
     
@@ -25,15 +26,19 @@ struct DemoView: View {
             
             
             VStack {
+                
+                Spacer()
+                
                 //Logo image
                 Styling.getLogo()
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .padding()
+                    .frame(height: 22)
+                    .padding(.top, 40)
                 
                 //current status
                 Text(viewModel.statusText)
-                    .bold()
+                    .font(Styling.Fonts.headline01)
                     .foregroundColor(.white)
                 
                 //Demo cases to choose from
@@ -46,7 +51,8 @@ struct DemoView: View {
                                 tapped: testCase.chosen,
                                 buttonName: testCase.buttonDescription)
                                 .onTapGesture {
-                                    viewModel.demoCaseChosen(chosenCase: testCase)
+                                    viewModel.demoCaseChosen(
+                                        chosenCase: testCase)
                                 }
                         }
                     }
@@ -54,6 +60,8 @@ struct DemoView: View {
                 }
                 
                 Spacer()
+                CompilerView(
+                    compilerText: $viewModel.compilerText)
             }
         }
         .ignoresSafeArea()
@@ -69,7 +77,7 @@ struct DemoViewButtons: View {
         
         ZStack {
             RoundedRectangle(cornerRadius: 10)
-                .stroke(.yellow, lineWidth: 2)
+                .stroke(.yellow, lineWidth: 1)
                 .padding(.horizontal, 30)
                 .frame(height: 40)
             
@@ -81,7 +89,7 @@ struct DemoViewButtons: View {
             
             Text(buttonName)
                 .foregroundColor(.white)
-                .bold()
+                .font(Styling.Fonts.headline03)
             
         }
     }

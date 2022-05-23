@@ -9,24 +9,15 @@ import SwiftUI
 
 struct CompilerView: View {
     
-    @State var compilerStatus = "Compiling"
-    @State var compilerText = "---------------"
-    @State var compilerError = "Error"
+    @State var compilerStatus = "Compiler"
+    @Binding var compilerText: String
     
     var body: some View {
         ZStack (alignment: .leading) {
             
             //Background color
             RoundedRectangle(cornerRadius: 25)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            Color(red: 0.358, green: 0.358, blue: 0.358),
-                            Color(red: 0.117, green: 0.11, blue: 0.11)
-                                ],
-                        startPoint: .top,
-                        endPoint: .bottom)
-                )
+                .fill(Styling.compilerBackgroundColor)
             
             
             //Content
@@ -37,16 +28,19 @@ struct CompilerView: View {
                     .padding(.top)
                     .padding(.leading)
                 
-                ScrollView(.vertical){
-                    Text(compilerText)
-                        .foregroundColor(.white)
-                        .bold()
-                    
-                    Text(compilerError)
-                        .foregroundColor(.red)
-                        .bold()
+                //console box
+                ZStack (alignment: .leading){
+                    //background color
+                    Rectangle()
+                        .fill(Styling.compilerBackgroundColor)
+                    //content
+                    ScrollView(.vertical){
+                        Text(compilerText)
+                            .foregroundColor(.white)
+                            .font(Styling.Fonts.body02)
+                    }
+                    .padding(.leading)
                 }
-                
                 Spacer()
             }
         }
@@ -55,7 +49,10 @@ struct CompilerView: View {
 }
 
 struct CompilerView_Previews: PreviewProvider {
+    
+    @State static var text = "-----"
+    
     static var previews: some View {
-        CompilerView()
+        CompilerView(compilerText: $text)
     }
 }

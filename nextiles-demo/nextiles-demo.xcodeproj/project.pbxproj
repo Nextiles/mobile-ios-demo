@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9600BDD42836E1A300A71A3E /* GreycliffCF-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD02836E1A300A71A3E /* GreycliffCF-DemiBold.ttf */; };
+		9600BDD52836E1A300A71A3E /* GreycliffCF-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */; };
+		9600BDD72836E1A300A71A3E /* GreycliffCF-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */; };
+		9600BDDA2836E4CE00A71A3E /* nasalization-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */; };
 		962E84D428340EC4009D09AF /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E84D328340EC4009D09AF /* DemoViewModel.swift */; };
 		96898F062833F49800D55C1F /* nextiles_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96898F052833F49800D55C1F /* nextiles_demoApp.swift */; };
 		96898F0A2833F49900D55C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96898F092833F49900D55C1F /* Assets.xcassets */; };
@@ -18,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9600BDD02836E1A300A71A3E /* GreycliffCF-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-DemiBold.ttf"; sourceTree = "<group>"; };
+		9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-Bold.ttf"; sourceTree = "<group>"; };
+		9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-Regular.ttf"; sourceTree = "<group>"; };
+		9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nasalization-rg.ttf"; sourceTree = "<group>"; };
+		9600BDDB2836E4E900A71A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		962E84D328340EC4009D09AF /* DemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
 		96898F022833F49800D55C1F /* nextiles-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nextiles-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96898F052833F49800D55C1F /* nextiles_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextiles_demoApp.swift; sourceTree = "<group>"; };
@@ -59,11 +68,16 @@
 		96898F042833F49800D55C1F /* nextiles-demo */ = {
 			isa = PBXGroup;
 			children = (
+				9600BDDB2836E4E900A71A3E /* Info.plist */,
 				96898F052833F49800D55C1F /* nextiles_demoApp.swift */,
 				96898F152833F53900D55C1F /* Model */,
 				96898F132833F50C00D55C1F /* View */,
 				96898F142833F51500D55C1F /* ViewModel */,
 				96898F092833F49900D55C1F /* Assets.xcassets */,
+				9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */,
+				9600BDD02836E1A300A71A3E /* GreycliffCF-DemiBold.ttf */,
+				9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */,
+				9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */,
 				96898F0B2833F49900D55C1F /* Preview Content */,
 			);
 			path = "nextiles-demo";
@@ -167,6 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96898F0D2833F49900D55C1F /* Preview Assets.xcassets in Resources */,
+				9600BDD52836E1A300A71A3E /* GreycliffCF-Bold.ttf in Resources */,
+				9600BDD72836E1A300A71A3E /* GreycliffCF-Regular.ttf in Resources */,
+				9600BDDA2836E4CE00A71A3E /* nasalization-rg.ttf in Resources */,
+				9600BDD42836E1A300A71A3E /* GreycliffCF-DemiBold.ttf in Resources */,
 				96898F0A2833F49900D55C1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -316,6 +334,9 @@
 				DEVELOPMENT_TEAM = 9ZLG5436N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nextiles-demo/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need bluetooth permission";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,6 +366,9 @@
 				DEVELOPMENT_TEAM = 9ZLG5436N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nextiles-demo/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Need bluetooth permission";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Need bluetooth permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
