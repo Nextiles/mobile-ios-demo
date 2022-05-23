@@ -6,7 +6,8 @@ This repository is meant for our clients who are planning to integrate the Nexti
 
 ## Getting started
 1. To get started please clone this repository. 
-2. After successfully cloning, add the NX-info.plist file to the project hierarchy.
+2. After successfully cloning, add the `NX-info.plist` file to the project hierarchy.
+    - Please inquire with business@nextiles.tech on receiving your organization info.plist file or appropriate account tokens.
 3. Lastly in the `DemoViewModel` file on line 21 when the SDK is being initialized, replace the organization parameter with your organization name.
 
 ```swift

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NextilesSDK",
+        "repositoryURL": "https://github.com/Nextiles/mobile-ios-sdk/",
+        "state": {
+          "branch": null,
+          "revision": "555d65a1acfb63cd766c894c93dd346cfa1635ff",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "swift-collections",
+        "repositoryURL": "https://github.com/apple/swift-collections",
+        "state": {
+          "branch": null,
+          "revision": "48254824bb4248676bf7ce56014ff57b142b77eb",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
