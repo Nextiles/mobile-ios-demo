@@ -26,7 +26,6 @@
 		9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-Bold.ttf"; sourceTree = "<group>"; };
 		9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreycliffCF-Regular.ttf"; sourceTree = "<group>"; };
 		9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nasalization-rg.ttf"; sourceTree = "<group>"; };
-		9600BDDB2836E4E900A71A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		962E84D328340EC4009D09AF /* DemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
 		96898F022833F49800D55C1F /* nextiles-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nextiles-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96898F052833F49800D55C1F /* nextiles_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextiles_demoApp.swift; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		96898F042833F49800D55C1F /* nextiles-demo */ = {
 			isa = PBXGroup;
 			children = (
-				9600BDDB2836E4E900A71A3E /* Info.plist */,
 				96898F052833F49800D55C1F /* nextiles_demoApp.swift */,
 				96898F152833F53900D55C1F /* Model */,
 				96898F132833F50C00D55C1F /* View */,
