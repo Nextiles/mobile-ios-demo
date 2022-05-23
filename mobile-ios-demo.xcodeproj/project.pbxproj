@@ -48,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9630A7A2283C164E000BCFD7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */,
+				9600BDD02836E1A300A71A3E /* GreycliffCF-DemiBold.ttf */,
+				9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */,
+				9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		96898EF92833F49800D55C1F = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +83,7 @@
 				96898F132833F50C00D55C1F /* View */,
 				96898F142833F51500D55C1F /* ViewModel */,
 				96898F092833F49900D55C1F /* Assets.xcassets */,
-				9600BDD12836E1A300A71A3E /* GreycliffCF-Bold.ttf */,
-				9600BDD02836E1A300A71A3E /* GreycliffCF-DemiBold.ttf */,
-				9600BDD32836E1A300A71A3E /* GreycliffCF-Regular.ttf */,
-				9600BDD92836E4CE00A71A3E /* nasalization-rg.ttf */,
+				9630A7A2283C164E000BCFD7 /* fonts */,
 				96898F0B2833F49900D55C1F /* Preview Content */,
 			);
 			name = "mobile-ios-demo";
