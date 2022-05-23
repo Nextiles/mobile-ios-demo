@@ -29,4 +29,6 @@ This repository is meant for our clients who are planning to integrate the Nexti
  - All SDK functionality will can be found in the `DemoViewModel` file.
 
 ## Demo
+https://user-images.githubusercontent.com/19720373/169857831-1e06f9b6-185b-4d62-bd5c-688d1a40c7fd.mp4
+
 
